@@ -1,0 +1,66 @@
+.contenedor {
+    display: flex;
+    height: 200px;
+    padding: 5px;
+    
+}
+.elemento1 {
+    flex: 1;
+    border: 1px solid black;
+    background-color: rgb(10, 236, 218);
+    font-size: 30px;
+}
+
+.elemento3 {
+    flex: 1;
+    border: 1px solid black;
+    background-color: rgb(253, 36, 206);
+    font-size: 30px;
+}
+
+.elemento2 {
+    flex: 1;
+    border: 1px solid black;
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+}
+
+.contenedor-filas {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.contenedor-filas-secundario {
+    display: flex;
+    height: 50%;
+}
+
+.elementoS1 {
+    background-color: rgb(48, 13, 250);
+    flex: 1;
+    height: 50%;
+    font-size: 30px;
+}
+
+.elementoS2{
+    background-color: rgb(8, 247, 8);
+    flex: 1;
+    font-size: 30px;
+}
+.elementoS3 {
+    background-color: rgb(247, 59, 12);
+    flex: 1;
+    font-size: 30px;
+}
+.contenedor-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    padding: 20px;
+}
+
+.mb-3 {
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
